@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+C:\Android\MOPS\.metadata\.plugins\org.eclipse.jdt.core
+3813345663.index

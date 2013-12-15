@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:scaleX="1"
+	android:scaleY="1"
+	android:layout_weight="1"
+	android:background="#E3EFE6">
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="100dip"
+		android:layout_y="100dip"
+		android:text="start"
+		android:textColor="#4B45D6"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="160dip"
+		android:layout_y="100dip"
+		android:text="lunch"
+		android:textColor="#4B45D6"/>
+
+	<TextView
+		android:id="@+id/module_name_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="100dip"
+		android:layout_y="70dip"
+		android:text="SCHEDULE"
+		android:textSize="25px"
+		android:textColor="#E91332"/>
+
+	<TextView
+		android:id="@+id/module_name_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="80dip"
+		android:layout_y="230dip"
+		android:text="ON-CALL shifts"
+		android:textSize="25px"
+		android:textColor="#E91332"/>
+
+	<TextView
+		android:id="@+id/current_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="180dip"
+		android:layout_y="15dip"
+		android:text="Closing time"
+		android:textColor="#4B45D6"/>
+
+	<Spinner
+		android:id="@+id/reporttime"
+		android:layout_width="40dp"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="180dip"
+		android:layout_y="35dip"
+		android:scaleX="1"
+		android:scaleY="1"
+		android:background="@drawable/blank_orange"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="210dip"
+		android:layout_y="100dip"
+		android:text="finish"
+		android:textColor="#4B45D6"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="350dip"
+		android:layout_y="100dip"
+		android:text="available"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="435dip"
+		android:layout_y="100dip"
+		android:text="status"/>
+
+	<TextView
+		android:id="@+id/tm_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="5dip"
+		android:layout_y="130dip"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/tm_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="5dip"
+		android:layout_y="160dip"
+		android:visibility="invisible"/>
+
+	<Spinner
+		android:id="@+id/spinner1"
+		android:layout_width="95dp"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="5dip"
+		android:layout_y="120dip"
+		android:background="@drawable/blank_orange"/>
+
+	<Spinner
+		android:id="@+id/hours1"
+		android:layout_width="40dip"
+		android:layout_height="35dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="100dip"
+		android:layout_y="120dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/status1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="420dip"
+		android:layout_y="122dip"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/save"
+		android:layout_x="235dip"
+		android:layout_height="40dip"
+		android:text="save"
+		android:layout_y="350dip"
+		android:textColor="#305FE4"
+		android:textScaleX=".8"
+		android:scaleY=".8"/>
+	
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/update"
+		android:layout_x="235dip"
+		android:layout_height="40dip"
+		android:text="update"
+		android:layout_y="310dip"
+		android:textColor="#305FE4"
+		android:textScaleX=".8"
+		android:scaleY=".8"/>
+
+	<Spinner
+		android:id="@+id/status2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="420dip"
+		android:layout_y="164dip"/>
+
+	<Spinner
+		android:id="@+id/hours2"
+		android:layout_width="40dip"
+		android:layout_height="35dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="210dip"
+		android:layout_y="120dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/lunch1"
+		android:layout_width="40dip"
+		android:layout_height="35dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="160dip"
+		android:layout_y="120dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/spinner2"
+		android:layout_width="95dp"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="5dip"
+		android:layout_y="160dip"
+		android:background="@drawable/blank_orange"/>
+
+	<Spinner
+		android:id="@+id/hours_on_1_fr"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="100dip"
+		android:layout_y="260dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/lunch_on_1"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="160dip"
+		android:layout_y="260dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/hours_on_1_to"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="210dip"
+		android:layout_y="260dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/spinner_on_1"
+		android:layout_width="95dp"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="5dip"
+		android:layout_y="260dip"
+		android:background="@drawable/blank_orange"/>
+
+	<Spinner
+		android:id="@+id/status_on_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="420dip"
+		android:layout_y="264dip"/>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="370dip"
+		android:id="@+id/availab_on_to_1"
+		android:layout_height="wrap_content"
+		android:layout_y="260dip">
+
+	</EditText>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="340dip"
+		android:id="@+id/availab_on_fr_1"
+		android:layout_height="wrap_content"
+		android:layout_y="260dip">
+
+	</EditText>
+
+	<Spinner
+		android:id="@+id/month_picker"
+		android:layout_width="40dp"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="10dip"
+		android:layout_y="35dip"
+		android:textSize="9sp"
+		android:textColor="#305FE4"
+		android:scaleX="1"
+		android:scaleY="1"
+		android:padding="0dp"
+		android:background="@drawable/blank_green">
+
+	</Spinner>
+	
+
+	<TextView
+		android:id="@+id/db_record_check1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="10dip"
+		android:layout_y="75dip"
+		android:textColor="#4B45D6"
+		android:background="#E3EFE6"/>
+
+	<TextView
+		android:id="@+id/month_picker_txt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="10dip"
+		android:layout_y="15dip"
+		android:text="Month"
+		android:textColor="#4B45D6"/>
+
+	<TextView
+		android:id="@+id/month_picker_txt_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="70dip"
+		android:layout_y="15dip"
+		android:text="Day"
+		android:textColor="#4B45D6"/>
+
+	<Spinner
+		android:id="@+id/day_picker"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="60dip"
+		android:layout_y="35dip"
+		android:textSize="9sp"
+		android:scaleX="1"
+		android:scaleY="1"
+		android:background="@drawable/blank_green">
+
+	</Spinner>
+
+	<Spinner
+		android:id="@+id/year_picker"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="110dip"
+		android:layout_y="35dip"
+		android:textSize="9sp"
+		android:scaleX="1"
+		android:scaleY="1"
+		android:background="@drawable/blank_green">
+
+	</Spinner>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="120dip"
+		android:layout_y="15dip"
+		android:text="Year"
+		android:textColor="#4B45D6"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="5dip"
+		android:layout_y="100dip"
+		android:textColor="#4B45D6"
+		android:text="id"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="100dip"
+		android:text="name"
+		android:textColor="#4B45D6"/>
+
+	<Spinner
+		android:id="@+id/hours3"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="100dip"
+		android:layout_y="160dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="30dp"/>
+
+	<Spinner
+		android:id="@+id/hours4"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="210dip"
+		android:layout_y="160dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/lunch2"
+		android:layout_width="40dip"
+		android:layout_height="35dp"
+		android:drawSelectorOnTop="true"
+		android:layout_x="160dip"
+		android:layout_y="160dip"
+		android:background="@drawable/blank_blue"
+		android:dropDownWidth="40dip"/>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="120dip"
+		android:id="@+id/sales"
+		android:layout_height="wrap_content"
+		android:layout_y="350dip"
+		android:hint="current sale $"
+		android:textSize="15sp"
+		android:inputType="number"
+		android:textColor="#4B45D6"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/calculate"
+		android:layout_x="220dip"
+		android:layout_height="40dip"
+		android:text="Calc hrs"
+		android:layout_y="400dip"
+		android:textColor="#E3463C"
+		android:scaleX=".7"
+		android:scaleY=".7"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="390dip"
+		android:text="Hours spent:"
+		android:textColor="#EB1818"/>
+
+	<TextView
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="120dip"
+		android:id="@+id/tt"
+		android:layout_height="wrap_content"
+		android:layout_y="390dip"
+		android:textColor="#EC1002"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="360dip"
+		android:text="Planned Sales"
+		android:textColor="#4B45D6"/>
+
+	<TextView
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="120dip"
+		android:id="@+id/ty"
+		android:layout_height="wrap_content"
+		android:layout_y="420dip"
+		android:textColor="#0505F5"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="180dip"
+		android:layout_y="390dip"
+		android:text="hrs"
+		android:textColor="#F41020"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="180dip"
+		android:layout_y="420dip"
+		android:text="$/hrs"
+		android:textColor="#1D10F4"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="420dip"
+		android:text="Efficiency"
+		android:textColor="#3034C5"/>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="340dip"
+		android:id="@+id/availab_fr_1"
+		android:layout_height="wrap_content"
+		android:layout_y="120dip">
+
+	</EditText>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="340dip"
+		android:id="@+id/availab_fr_2"
+		android:layout_height="wrap_content"
+		android:layout_y="160dip">
+
+	</EditText>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="370dip"
+		android:id="@+id/availab_to_1"
+		android:layout_height="wrap_content"
+		android:layout_y="120dip">
+
+	</EditText>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="370dip"
+		android:id="@+id/availab_to_2"
+		android:layout_height="wrap_content"
+		android:layout_y="160dip">
+
+	</EditText>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/edit1"
+		android:layout_x="84dip"
+		android:layout_height="40dip"
+		android:text="  TM's info "
+		android:layout_y="450dip"
+		android:visibility="visible"
+		android:textColor="#305FE4"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/tracking"
+		android:layout_x="190dip"
+		android:layout_height="40dip"
+		android:text="   Tracker    "
+		android:layout_y="450dip"
+		android:textColor="#305FE4"/>
+
+</AbsoluteLayout>
+

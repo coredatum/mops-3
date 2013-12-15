@@ -1,0 +1,420 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   
+	<Button android:layout_width="wrap_content"
+
+		android:id="@+id/NAME1"
+
+		android:layout_x="20dip"
+
+		android:layout_height="wrap_content"
+
+		android:text="update"
+
+		android:layout_y="330dip"></Button>
+
+	<Button android:layout_width="wrap_content"
+
+		android:id="@+id/add1"
+
+		android:layout_x="20dip"
+
+		android:layout_height="wrap_content"
+
+		android:text="Add"
+
+		android:layout_y="400dip"></Button>
+	
+
+	<EditText android:text=""
+
+		android:layout_width="wrap_content"
+
+		android:layout_x="120dip"
+
+		android:id="@+id/ID1"
+
+		android:layout_height="wrap_content"
+		
+		android:inputType="number"
+
+		android:layout_y="330dip"
+		
+		android:hint="ID"
+		>
+		</EditText>
+
+
+	<EditText android:text=""
+
+		android:layout_width="wrap_content"
+
+		android:layout_x="120dip"
+
+		android:id="@+id/tttt"
+
+		android:layout_height="wrap_content"
+
+		android:layout_y="370dip">
+	</EditText>
+
+	
+	<TextView android:text=""
+
+		android:layout_width="wrap_content"
+
+		android:layout_x="30dip"
+
+		android:id="@+id/tm_1"
+
+		android:layout_height="wrap_content"
+
+		android:layout_y="30dip">
+	</TextView>	
+	
+	
+	<Spinner
+
+		android:layout_width="wrap_content"
+
+		android:layout_x="50dip"
+
+		android:id="@+id/spinner1"
+
+		android:layout_height="wrap_content"
+
+		android:layout_y="20dip"
+
+	></Spinner>
+	
+	
+	<EditText android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="120dip"
+		android:id="@+id/phone"
+		android:layout_height="wrap_content"
+		android:layout_y="450dip"
+		
+		android:hint="phone">
+	</EditText>
+	
+	
+	<EditText android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="300dip"
+		android:id="@+id/ava_fr_n"
+		android:layout_height="wrap_content"
+		android:layout_y="410dip"
+		android:inputType="number"
+		android:hint="ava_from">
+	</EditText>
+	
+	<EditText android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="300dip"
+		android:id="@+id/ava_to_n"
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:layout_y="450dip"
+		android:hint="ava_to">
+	</EditText>
+	
+	
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="370dip"
+		android:layout_y="0dip"
+		android:text="Availability"
+	></TextView>
+	
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="30dip"
+		android:text="Monday:"
+	></TextView>
+
+
+	<EditText
+		android:id="@+id/avalab_mon_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="20dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/avalab_mon_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="20dip"
+	></EditText>
+
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="70dip"
+		android:text="Tuesday:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/avalab_tu_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="60dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/availab_tu_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="60dip"
+	></EditText>
+	
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="110dip"
+		android:text="Wednesday:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/avalab_wed_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="100dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/availab_wed_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="100dip"
+	></EditText>
+	
+	/>
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="150dip"
+		android:text="Thursday:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/avalab_th_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="140dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/availab_th_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="140dip"
+	></EditText>
+
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="190dip"
+		android:text="Friday:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/avalab_fr_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="180dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/availab_fr_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="180dip"
+	></EditText>
+
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="230dip"
+		android:text="Saturday:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/avalab_sat_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="220dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/availab_sat_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="220dip"
+	></EditText>
+
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="280dip"
+		android:layout_y="270dip"
+		android:text="Sunday:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/avalab_sun_from_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="380dip"
+		android:layout_y="260dip"
+	></EditText>
+
+	<EditText
+		android:id="@+id/availab_sun_to_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="440dip"
+		android:layout_y="260dip"
+	></EditText>
+	
+	<EditText android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="120dip"
+		android:id="@+id/emailaddr"
+		android:layout_height="wrap_content"
+		android:layout_y="410dip"
+		android:hint="e-mail">
+	</EditText>
+	
+	<EditText android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="20dip"
+		android:id="@+id/phone_db"
+		android:layout_height="wrap_content"
+		android:layout_y="100dip"
+		android:inputType="number"
+		android:hint="phone_db">
+		
+		</EditText>
+		
+	<Button 
+		android:layout_width="wrap_content"
+		android:id="@+id/call1"
+		android:layout_x="190dip"
+		android:layout_height="wrap_content"
+		android:text="call"		
+		android:layout_y="100dip"></Button>
+		
+		<EditText android:text=""
+			android:layout_width="wrap_content"
+			android:layout_x="0dip"
+			android:id="@+id/email_db"
+			android:layout_height="wrap_content"
+			android:layout_y="180dip"
+			android:hint="email_db">
+			
+       	</EditText>
+		
+		
+	
+	<Button android:layout_width="wrap_content"
+
+		android:id="@+id/schedule_menu"
+
+		android:layout_x="320dip"
+
+		android:layout_height="wrap_content"
+
+		android:text="Scheduler"
+
+		android:layout_y="500dip"></Button>
+	
+	<Button android:layout_width="wrap_content"
+
+		android:id="@+id/edit_menu_button"
+
+		android:layout_x="150dip"
+
+		android:layout_height="wrap_content"
+
+		android:text="Edit contacts"
+
+		android:layout_y="500dip"></Button>
+	
+	
+	<TextView
+		android:id="@+id/availability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="250dip"
+		android:text="Started at:"
+	></TextView>	
+
+	<EditText
+		android:id="@+id/hours_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+		android:layout_x="90dip"
+		android:layout_y="240dip"
+		android:text="current _time"
+	></EditText>
+	
+	
+</AbsoluteLayout>

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="110dip"
+		android:layout_y="40dip"
+		android:text="Start:"
+		android:textColor="#5367ab"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="170dip"
+		android:layout_y="40dip"
+		android:text="Lunch:"
+		android:textColor="#5367ab"/>
+
+	<ImageView
+		android:id="@+id/img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_x="20dip"
+		android:layout_y="320dip"
+		android:minWidth="100dp"
+		android:minHeight="80dp"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="230dip"
+		android:layout_y="40dip"
+		android:text="Finish:"
+		android:textColor="#5367ab"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="298dip"
+		android:layout_y="40dip"
+		android:text="Task:"
+		android:textColor="#5367ab"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="360dip"
+		android:layout_y="40dip"
+		android:text="Punch on/off"
+		android:textColor="#5367AB"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="40dip"
+		android:text="Name:"
+		android:textColor="#5367ab"/>
+
+	<TextView
+		android:id="@+id/team_member_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="70dip"/>
+
+	<Button
+		android:id="@+id/start_button_1"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="113dip"
+		android:layout_y="65dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/lunch_button_1"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="171dip"
+		android:layout_y="65dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/finish_button_1"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="232dip"
+		android:layout_y="65dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/lunch_button_2"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="171dip"
+		android:layout_y="95dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/start_button_2"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="113dip"
+		android:layout_y="95dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/finish_button_2"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="232dip"
+		android:layout_y="95dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/start_button_3"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="113dip"
+		android:layout_y="147dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/lunch_button_3"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="171dip"
+		android:layout_y="147dip"
+		android:background="#ABCFE3"/>
+
+	<Button
+		android:id="@+id/finish_button_3"
+		android:layout_width="28dip"
+		android:layout_height="28dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="232dip"
+		android:layout_y="147dip"
+		android:background="#ABCFE3"/>
+
+	<TextView
+		android:id="@+id/start_time_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="122dip"
+		android:layout_y="70dip"/>
+
+	<TextView
+		android:id="@+id/punch_tm11_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="143dip"
+		android:layout_y="70dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/punch_tm11_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="143dip"
+		android:layout_y="70dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/punch_tm111_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="137dip"
+		android:layout_y="70dip"
+		android:textColor="#e70c0c"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/tm_status_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="285dip"
+		android:layout_y="70dip"/>
+
+	<TextView
+		android:id="@+id/tm_status_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="285dip"
+		android:layout_y="100dip"/>
+
+	<TextView
+		android:id="@+id/tm_status_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="285dip"
+		android:layout_y="150dip"/>
+
+	<TextView
+		android:id="@+id/finish_time_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="235dip"
+		android:layout_y="70dip"/>
+
+	<TextView
+		android:id="@+id/punch_tm_out111_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="255dip"
+		android:layout_y="70dip"
+		android:textColor="#e70c0c"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_tm_out11_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="255dip"
+		android:layout_y="70dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/punch_tm_out222_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="255dip"
+		android:layout_y="100dip"
+		android:textColor="#e70c0c"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_tm_out22_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="255dip"
+		android:layout_y="100dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/punch_out_tm11_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="265dip"
+		android:layout_y="70dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/punch_out_tm22_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="265dip"
+		android:layout_y="100dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/lunch_time_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="178dip"
+		android:layout_y="70dip"/>
+
+	<TextView
+		android:id="@+id/team_member_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="100dip"/>
+
+	<TextView
+		android:id="@+id/team_member_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="150dip"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/sms"
+		android:layout_x="363dip"
+		android:layout_height="40dip"
+		android:layout_y="410dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#E70C0C"
+		android:shadowColor="#F41616"
+		android:text="Text report"/>
+
+	<Button
+		android:layout_width="40dip"
+		android:id="@+id/sms"
+		android:layout_x="410dip"
+		android:layout_height="35dip"
+		android:layout_y="190dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#E70C0C"
+		android:background="@drawable/bug"
+		android:shadowColor="#F41616"/>
+
+	<TextView
+		android:id="@+id/important_notes"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="30dip"
+		android:layout_y="185dip"
+		android:text="Important notes:"
+		android:textColor="#151FD7"/>
+
+	<EditText
+		android:id="@+id/input_imp_notes"
+		android:layout_width="380dip"
+		android:layout_height="100dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="185dip"
+		android:hint="important notes"
+		android:textColor="#3428E1"
+		android:scaleY=".8"
+		android:rotationY=".8"/>
+
+	<TextView
+		android:id="@+id/input_imp_notes1"
+		android:layout_width="380dip"
+		android:layout_height="100dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="185dip"
+		android:textColor="#3428E1"
+		android:scaleY=".8"
+		android:rotationY=".8"/>
+
+	<Button
+		android:layout_width="40dip"
+		android:id="@+id/email"
+		android:layout_x="380dip"
+		android:layout_height="35dip"
+		android:layout_y="210dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#E70C0C"
+		android:background="@drawable/bug"
+		android:shadowColor="#F41616"
+		android:visibility="invisible"/>
+
+	<Button
+		android:layout_width="40dip"
+		android:id="@+id/sms"
+		android:layout_x="380dip"
+		android:layout_height="35dip"
+		android:layout_y="210dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#E70C0C"
+		android:background="@drawable/airdroid_icon"
+		android:shadowColor="#F41616"
+		android:visibility="invisible"/>
+
+	<Spinner
+		android:id="@+id/pick_date"
+		android:layout_height="40dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="10dip"
+		android:layout_y="0dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:text="m"
+		android:background="@drawable/blank_blue"
+		android:layout_width="40dip"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/pick_day"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="50dip"
+		android:layout_y="0dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:text="d"
+		android:background="@drawable/blank_orange"
+		android:dropDownWidth="40dip"/>
+
+	<Spinner
+		android:id="@+id/pick_year"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:drawSelectorOnTop="true"
+		android:layout_x="90dip"
+		android:layout_y="0dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:text="y"
+		android:background="@drawable/blank_green"
+		android:dropDownWidth="40dip"/>
+
+	<TextView
+		android:id="@+id/start_time_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="118dip"
+		android:layout_y="100dip"/>
+
+	<TextView
+		android:id="@+id/punch_tm222_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="137dip"
+		android:layout_y="100dip"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_tm22_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="142dip"
+		android:layout_y="100dip"
+		android:textColor="#F30528"/>
+
+	<TextView
+		android:id="@+id/start_time_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="123dip"
+		android:layout_y="150dip"/>
+
+	<TextView
+		android:id="@+id/finish_time_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="235dip"
+		android:layout_y="100dip"/>
+
+	<TextView
+		android:id="@+id/finish_time_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="235dip"
+		android:layout_y="150dip"/>
+
+	<TextView
+		android:id="@+id/lunch_time_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="178dip"
+		android:layout_y="100dip"/>
+
+	<TextView
+		android:id="@+id/lunch_time_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="175dip"
+		android:layout_y="150dip"/>
+
+	<TextView
+		android:id="@+id/hours_now"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="265dip"
+		android:layout_y="10dip"
+		android:text="time"
+		android:textColor="#1F04FB"/>
+
+	<TextView
+		android:id="@+id/current_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="180dip"
+		android:layout_y="10dip"
+		android:text="session time:"
+		android:textColor="#2808FA"/>
+
+	<TextView
+		android:id="@+id/current_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="23dip"
+		android:layout_y="127dip"
+		android:text="ONCALL:"
+		android:textColor="#e80f0f"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="20dip"
+		android:layout_y="295dip"
+		android:text="To check efficiency please enter sales:"
+		android:textColor="#155FE9"/>
+
+	<EditText
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="275dip"
+		android:id="@+id/sales"
+		android:layout_height="wrap_content"
+		android:layout_y="285dip"
+		android:hint="sales"
+		android:inputType="number"
+		android:textColor="#E70C0C">
+
+	</EditText>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/calculate"
+		android:layout_x="20dip"
+		android:layout_height="40dip"
+		android:text="Calculate"
+		android:layout_y="410dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#E70C0C"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/save_db"
+		android:layout_x="120dip"
+		android:layout_height="40dip"
+		android:text="Save report"
+		android:layout_y="410dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#1226E7"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/mail_tm"
+		android:layout_x="237dip"
+		android:layout_height="40dip"
+		android:text="E-mail report"
+		android:layout_y="410dip"
+		android:scaleX=".8"
+		android:scaleY=".8"
+		android:textColor="#1226E7"/>
+
+	<Button
+		android:layout_width="30dip"
+		android:id="@+id/punch_out2"
+		android:layout_x="355dip"
+		android:layout_height="30dip"
+		android:layout_y="150dip"
+		android:background="@drawable/clock"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_hours_tm1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="355dip"
+		android:layout_y="70dip"
+		android:text="punch in"/>
+
+	<TextView
+		android:id="@+id/punch_hours_out_tm1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="355dip"
+		android:layout_y="70dip"/>
+
+	<TextView
+		android:id="@+id/punch_hours_out_tm2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="355dip"
+		android:layout_y="100dip"/>
+
+	<TextView
+		android:id="@+id/punch_hours_tm2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="355dip"
+		android:layout_y="100dip"
+		android:text="punch in"/>
+
+	<TextView
+		android:id="@+id/punch_hours_tm3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="355dip"
+		android:layout_y="150dip"
+		android:text="punch in"/>
+
+	<TextView
+		android:id="@+id/punch_tm1_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="405dip"
+		android:layout_y="70dip"
+		android:textColor="#2424C4"/>
+
+	<TextView
+		android:id="@+id/punch_tm2_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="405dip"
+		android:layout_y="100dip"
+		android:textColor="#2424c4"/>
+
+	<TextView
+		android:id="@+id/punch_tm3_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="405dip"
+		android:layout_y="150dip"
+		android:textColor="#2424c4"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="200dip"
+		android:layout_y="327dip"
+		android:text="Hours spent"/>
+
+	<TextView
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="310dip"
+		android:id="@+id/tt"
+		android:layout_height="wrap_content"
+		android:layout_y="327dip"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="350dip"
+		android:layout_y="327dip"
+		android:text="hrs"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="350dip"
+		android:layout_y="295dip"
+		android:text="$"
+		android:textColor="#F90C18"/>
+
+	<TextView
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_x="310dip"
+		android:id="@+id/ty"
+		android:layout_height="wrap_content"
+		android:layout_y="350dip"
+		android:textColor="#DE1C1C"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="350dip"
+		android:layout_y="350dip"
+		android:text="$/hrs"/>
+
+	<TextView
+		android:id="@+id/Text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="220dip"
+		android:layout_y="350dip"
+		android:text="Efficiency"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/scheduler"
+		android:layout_x="182dip"
+		android:layout_height="40dip"
+		android:text="scheduler"
+		android:layout_y="450dip"
+		android:textColor="#305FE4"/>
+
+</AbsoluteLayout>
+
