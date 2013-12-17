@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smeconcept.mopsapp"
+    package="net.learn2develop.databases"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -30,11 +30,11 @@
 		
 		
 	   	<activity 
-			android:name="com.smeconcept.mopsapp.Edit_menu"
+			android:name="net.learn2develop.databases.Edit_menu"
 			android:label="@string/app_name">	
 					
 			<intent-filter>
-				<action android:name="com.smeconcept.mopsapp.Edit_menu" />
+				<action android:name="net.learn2develop.databases.Edit_menu" />
 				<category android:name="android.intent.category.DEFAULT" />
 	    	</intent-filter>
 			
@@ -42,48 +42,38 @@
 			
  
 		<activity 
-			android:name="com.smeconcept.mopsapp.Tracking_Tool"
+			android:name="net.learn2develop.databases.Tracking_Tool"
 			android:label="@string/app_name">	
 
 			<intent-filter>
-				<action android:name="com.smeconcept.mopsapp.Tracking_Tool" />
+				<action android:name="net.learn2develop.databases.Tracking_Tool" />
 				<category android:name="android.intent.category.DEFAULT" />
 	    	</intent-filter>
 
-		</activity>	
-	  	
+		</activity>
+		
+
 		<activity 
-			android:name="com.smeconcept.mopsapp.DBTracker"
+			android:name="net.learn2develop.databases.DBTracker"
 			android:label="@string/app_name">	
 
 			<intent-filter>
-				<action android:name="com.smeconcept.mopsapp.DBTracker" />
+				<action android:name="net.learn2develop.databases.DBTracker" />
 				<category android:name="android.intent.category.DEFAULT" />
 	    	</intent-filter>
 
 		</activity>
 		
 		<activity 
-			android:name="com.smeconcept.mopsapp.EditContactMenu"
+			android:name="net.learn2develop.databases.EditContactMenu"
 			android:label="@string/app_name">	
 
 			<intent-filter>
-				<action android:name="com.smeconcept.mopsapp.EditContactMenu" />
+				<action android:name="net.learn2develop.databases.EditContactMenu" />
 				<category android:name="android.intent.category.DEFAULT" />
 	    	</intent-filter>
 
 		</activity>
-		
-	  <activity 
-		  android:name="com.smeconcept.mopsapp.ScheduleUpdate"
-		  android:label="@string/app_name">	
-
-		  <intent-filter>
-			  <action android:name="com.smeconcept.mopsapp.ScheduleUpdate" />
-			  <category android:name="android.intent.category.DEFAULT" />
-		  </intent-filter>
-
-	  </activity>
 		
 
         <receiver android:name=".SMSReceiver" >

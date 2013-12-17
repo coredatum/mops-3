@@ -4,7 +4,8 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:orientation="vertical">
+	android:orientation="vertical"
+	android:background="#F9F7E8">
 
 	<TextView
 		android:id="@+id/Text2"
@@ -16,16 +17,6 @@
 		android:text="Start:"
 		android:textColor="#5367ab"/>
 
-	<TextView
-		android:id="@+id/Text2"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:drawSelectorOnTop="true"
-		android:layout_x="170dip"
-		android:layout_y="40dip"
-		android:text="Lunch:"
-		android:textColor="#5367ab"/>
-
 	<ImageView
 		android:id="@+id/img"
 		android:layout_width="wrap_content"
@@ -35,6 +26,16 @@
 		android:layout_y="320dip"
 		android:minWidth="100dp"
 		android:minHeight="80dp"/>
+
+	<TextView
+		android:id="@+id/Text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="170dip"
+		android:layout_y="40dip"
+		android:text="Lunch:"
+		android:textColor="#5367ab"/>
 
 	<TextView
 		android:id="@+id/Text2"
@@ -263,6 +264,25 @@
 		android:visibility="invisible"/>
 
 	<TextView
+		android:id="@+id/punch_tm_out333_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="255dip"
+		android:layout_y="150dip"
+		android:textColor="#e70c0c"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_tm_out33_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="255dip"
+		android:layout_y="150dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
 		android:id="@+id/punch_tm_out22_info"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -287,6 +307,15 @@
 		android:drawSelectorOnTop="true"
 		android:layout_x="265dip"
 		android:layout_y="100dip"
+		android:textColor="#e70c0c"/>
+
+	<TextView
+		android:id="@+id/punch_out_tm33_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="265dip"
+		android:layout_y="150dip"
 		android:textColor="#e70c0c"/>
 
 	<TextView
@@ -316,7 +345,7 @@
 	<Button
 		android:layout_width="wrap_content"
 		android:id="@+id/sms"
-		android:layout_x="150dip"
+		android:layout_x="363dip"
 		android:layout_height="40dip"
 		android:layout_y="410dip"
 		android:scaleX=".8"
@@ -328,7 +357,7 @@
 	<Button
 		android:layout_width="40dip"
 		android:id="@+id/sms"
-		android:layout_x="300dip"
+		android:layout_x="410dip"
 		android:layout_height="35dip"
 		android:layout_y="190dip"
 		android:scaleX=".8"
@@ -349,7 +378,7 @@
 
 	<EditText
 		android:id="@+id/input_imp_notes"
-		android:layout_width="270dip"
+		android:layout_width="380dip"
 		android:layout_height="100dip"
 		android:drawSelectorOnTop="true"
 		android:layout_x="20dip"
@@ -361,7 +390,7 @@
 
 	<TextView
 		android:id="@+id/input_imp_notes1"
-		android:layout_width="270dip"
+		android:layout_width="380dip"
 		android:layout_height="100dip"
 		android:drawSelectorOnTop="true"
 		android:layout_x="20dip"
@@ -373,7 +402,7 @@
 	<Button
 		android:layout_width="40dip"
 		android:id="@+id/email"
-		android:layout_x="300dip"
+		android:layout_x="380dip"
 		android:layout_height="35dip"
 		android:layout_y="210dip"
 		android:scaleX=".8"
@@ -386,7 +415,7 @@
 	<Button
 		android:layout_width="40dip"
 		android:id="@+id/sms"
-		android:layout_x="300dip"
+		android:layout_x="380dip"
 		android:layout_height="35dip"
 		android:layout_y="210dip"
 		android:scaleX=".8"
@@ -398,6 +427,7 @@
 
 	<Spinner
 		android:id="@+id/pick_date"
+		android:layout_width="40dip"
 		android:layout_height="40dip"
 		android:drawSelectorOnTop="true"
 		android:layout_x="10dip"
@@ -405,9 +435,7 @@
 		android:scaleX=".8"
 		android:scaleY=".8"
 		android:text="m"
-		android:background="@drawable/blank_blue"
-		android:layout_width="40dip"
-		android:dropDownWidth="40dip"/>
+		android:background="@drawable/blank_green"/>
 
 	<Spinner
 		android:id="@+id/pick_day"
@@ -419,12 +447,11 @@
 		android:scaleX=".8"
 		android:scaleY=".8"
 		android:text="d"
-		android:background="@drawable/blank_orange"
-		android:dropDownWidth="40dip"/>
+		android:background="@drawable/blank_green"/>
 
 	<Spinner
 		android:id="@+id/pick_year"
-		android:layout_width="40dip"
+		android:layout_width="80dip"
 		android:layout_height="40dip"
 		android:drawSelectorOnTop="true"
 		android:layout_x="90dip"
@@ -432,8 +459,7 @@
 		android:scaleX=".8"
 		android:scaleY=".8"
 		android:text="y"
-		android:background="@drawable/blank_green"
-		android:dropDownWidth="40dip"/>
+		android:background="@drawable/blank_green"/>
 
 	<TextView
 		android:id="@+id/start_time_2"
@@ -451,6 +477,24 @@
 		android:layout_x="137dip"
 		android:layout_y="100dip"
 		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_tm333_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="137dip"
+		android:layout_y="150dip"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/punch_tm33_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:layout_x="142dip"
+		android:layout_y="150dip"
+		android:textColor="#e70c0c"/>
 
 	<TextView
 		android:id="@+id/punch_tm22_info"
@@ -560,18 +604,18 @@
 		android:layout_x="20dip"
 		android:layout_height="40dip"
 		android:text="Calculate"
-		android:layout_y="370dip"
+		android:layout_y="410dip"
 		android:scaleX=".8"
 		android:scaleY=".8"
-		android:textColor="#1226E7"/>
+		android:textColor="#E70C0C"/>
 
 	<Button
 		android:layout_width="wrap_content"
 		android:id="@+id/save_db"
-		android:layout_x="150dip"
+		android:layout_x="120dip"
 		android:layout_height="40dip"
 		android:text="Save report"
-		android:layout_y="370dip"
+		android:layout_y="410dip"
 		android:scaleX=".8"
 		android:scaleY=".8"
 		android:textColor="#1226E7"/>
@@ -579,13 +623,13 @@
 	<Button
 		android:layout_width="wrap_content"
 		android:id="@+id/mail_tm"
-		android:layout_x="20dip"
+		android:layout_x="237dip"
 		android:layout_height="40dip"
 		android:text="E-mail report"
 		android:layout_y="410dip"
 		android:scaleX=".8"
 		android:scaleY=".8"
-		android:textColor="#F41616"/>
+		android:textColor="#1226E7"/>
 
 	<Button
 		android:layout_width="30dip"
@@ -671,14 +715,14 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="150dip"
+		android:layout_x="200dip"
 		android:layout_y="327dip"
 		android:text="Hours spent"/>
 
 	<TextView
 		android:text=""
 		android:layout_width="wrap_content"
-		android:layout_x="260dip"
+		android:layout_x="310dip"
 		android:id="@+id/tt"
 		android:layout_height="wrap_content"
 		android:layout_y="327dip"/>
@@ -688,7 +732,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="300dip"
+		android:layout_x="350dip"
 		android:layout_y="327dip"
 		android:text="hrs"/>
 
@@ -705,7 +749,7 @@
 	<TextView
 		android:text=""
 		android:layout_width="wrap_content"
-		android:layout_x="260dip"
+		android:layout_x="310dip"
 		android:id="@+id/ty"
 		android:layout_height="wrap_content"
 		android:layout_y="350dip"
@@ -716,7 +760,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="300dip"
+		android:layout_x="350dip"
 		android:layout_y="350dip"
 		android:text="$/hrs"/>
 
@@ -725,14 +769,14 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="170dip"
+		android:layout_x="220dip"
 		android:layout_y="350dip"
 		android:text="Efficiency"/>
 
 	<Button
 		android:layout_width="wrap_content"
 		android:id="@+id/scheduler"
-		android:layout_x="100dip"
+		android:layout_x="182dip"
 		android:layout_height="40dip"
 		android:text="scheduler"
 		android:layout_y="450dip"

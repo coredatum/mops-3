@@ -34,7 +34,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="100dip"
+		android:layout_x="80dip"
 		android:layout_y="70dip"
 		android:text="SCHEDULE"
 		android:textSize="25px"
@@ -161,7 +161,7 @@
 		android:id="@+id/update"
 		android:layout_x="235dip"
 		android:layout_height="40dip"
-		android:text="update"
+		android:text="save"
 		android:layout_y="310dip"
 		android:textColor="#305FE4"
 		android:textScaleX=".8"
@@ -286,17 +286,6 @@
 		android:background="@drawable/blank_green">
 
 	</Spinner>
-	
-
-	<TextView
-		android:id="@+id/db_record_check1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:drawSelectorOnTop="true"
-		android:layout_x="10dip"
-		android:layout_y="75dip"
-		android:textColor="#4B45D6"
-		android:background="#E3EFE6"/>
 
 	<TextView
 		android:id="@+id/month_picker_txt"
@@ -376,6 +365,16 @@
 		android:layout_y="100dip"
 		android:text="name"
 		android:textColor="#4B45D6"/>
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:id="@+id/db_record_check"
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_x="10dip"
+		android:layout_y="75dip"
+	/>
 
 	<Spinner
 		android:id="@+id/hours3"
