@@ -24,7 +24,7 @@ public class DBContacts {
 	static final String KEY_REPORT ="report";
     static final String TAG = "DBContacts";
 
-    static final String DATABASE_NAME = "MyDBC36";
+    static final String DATABASE_NAME = "MyDBC30";
     static final String DATABASE_TABLE = "contacts";
     static final int DATABASE_VERSION = 1;
 
@@ -133,7 +133,7 @@ public class DBContacts {
     {
         ContentValues args = new ContentValues();
         args.put(KEY_NAME, name);
-        args.put(KEY_START, start); 
+        args.put(KEY_START, start);
 		args.put(KEY_LUNCH, lunch);
 		args.put(KEY_FINISH, finish);
 		args.put(KEY_STATUS, status);

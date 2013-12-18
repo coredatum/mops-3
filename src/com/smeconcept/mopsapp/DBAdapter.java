@@ -18,7 +18,7 @@ public class DBAdapter {
 	static final String CONTROL="control";
     static final String TAG = "DBAdapter";
 
-    static final String DATABASE_NAME = "MyDB26";
+    static final String DATABASE_NAME = "MyDB20";
     static final String DATABASE_TABLE = "contacts";
     static final int DATABASE_VERSION = 1;
 

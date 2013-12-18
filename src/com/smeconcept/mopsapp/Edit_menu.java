@@ -32,7 +32,7 @@ import android.view.View.OnClickListener;
 import android.content.Intent;
 import java.text.*;
 
-//test
+
 public class Edit_menu extends Activity {
 	EditText ID1;
 	EditText amount2;
@@ -65,7 +65,6 @@ public class Edit_menu extends Activity {
 	double x;
 	double y;
 	double a;
-	//test
 	double b;
 	int d;
 	int dd;
@@ -495,7 +494,8 @@ public class Edit_menu extends Activity {
 						Toast.makeText(getBaseContext(), "Add successful.", Toast.LENGTH_LONG).show();
 					}
 					else
-						Toast.makeText(getBaseContext(), "Did not add.", Toast.LENGTH_LONG).show();
+						Toast.makeText(getBaseContext(), "Could not update", Toast.LENGTH_LONG).show();
+					Toast.makeText(getBaseContext(), "Did not update", Toast.LENGTH_LONG).show();
 					db.close();
 				} 
 
