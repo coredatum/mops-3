@@ -24,7 +24,7 @@ public class DBContacts {
 	static final String KEY_REPORT ="report";
     static final String TAG = "DBContacts";
 
-    static final String DATABASE_NAME = "MyDBC30";
+    static final String DATABASE_NAME = "MyDBC45";
     static final String DATABASE_TABLE = "contacts";
     static final int DATABASE_VERSION = 1;
 

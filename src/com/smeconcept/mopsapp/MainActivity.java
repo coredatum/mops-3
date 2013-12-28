@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.widget.Toast;
 import android.widget.EditText;
+import android.widget.TimePicker;
 import java.util.*;
 import android.database.sqlite.*;
 
@@ -32,6 +33,7 @@ import android.widget.ImageView;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import java.text.*;
 
 public class MainActivity extends Activity {
     Spinner s1,s2,s3;
@@ -83,6 +85,7 @@ String[] presidents11 = {
 	}; 
     Integer day_picker1;
 	Integer c_int;
+	Integer c_int_c;
 	Integer test;
 	Spinner day_picker;
 	Integer [] day = {
@@ -142,6 +145,7 @@ String[] presidents11 = {
 	Integer nn, index, index2, index_m, index_d, index_y;
     String ava_fr_1;
 	String ava_to_1;
+	Cursor cnew1;
 	String ava_to_on_1, ava_fr_on_1;
 	String status_1, status_2, status_on_tm_1;
 	Integer hhh1, hhh2, lll1;
@@ -162,6 +166,7 @@ String[] presidents11 = {
 	Button calculate;
 	String calculator;
 	Button edit1;
+	Button time_picker;
 	double x;
 	double y;
 	double a;
@@ -205,56 +210,94 @@ String[] presidents11 = {
 		
 		db = new DBAdapter(this);
 		DBC2= new DBContacts(this);
-		
-		
-	/*
-	{
-	
+				
         DBC2.open();
 			
-		if (DBC2.insertContact("first contact", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
-			Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-		}
-		DBC2.close();
-		}
+/*       if (DBC2.insertContact("first contact", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
+			Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();}
 		
-	    {DBC2.open();
+
+			if (DBC2.insertContact("Smith S.", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+
+			if (DBC2.insertContact("Kristal", 8,12, 16, "GR", 1,1,2013,0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+			if (DBC2.insertContact("John", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+
+			if (DBC2.insertContact("Bond", 8,12, 16, "GR", 1,1,2013,0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+			if (DBC2.insertContact("Poll", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+
+			if (DBC2.insertContact("Brenda", 8,12, 16, "GR", 1,1,2013,0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+			if (DBC2.insertContact("Adele", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+
+			if (DBC2.insertContact("Kristina", 8,12, 16, "GR", 1,1,2013,0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+			if (DBC2.insertContact("Mackle", 6,10, 14, "openning",1,1,2013, 0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
+			}
+
+
+			if (DBC2.insertContact("Pitter", 8,12, 16, "GR", 1,1,2013,0,0,999,"info") >= 0){
+				//Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();			
+		    }
+			
+	   DBC2.close();
 		
-		Cursor cnew1 = DBC2.getAllContacts();
+	  
+	/*  { DBC2.open();
+		
+	cnew1 = DBC2.getAllContacts();
 		
 	if (cnew1.moveToFirst())
-		
-	do {
-		
-			String test1=cnew1.getString(11);
-		    String test2=cnew1.getString(0);
-			
-			
-		    c_int=Integer.parseInt(test1.toString());
-			Integer c_int_c=Integer.parseInt(test2.toString());
-			Toast.makeText(getBaseContext(), "contacts:"+c_int_c, Toast.LENGTH_SHORT).show();		
+	   
+	   {			
+	
+	do {		
+		    String test1=cnew1.getString(0);
+		    String test2=cnew1.getString(11);
+						
+	    	c_int_c=Integer.parseInt(test1.toString());
+			c_int=Integer.parseInt(test2.toString());
+		   
+		 	Toast.makeText(getBaseContext(), "contacts:"+c_int_c, Toast.LENGTH_SHORT).show();		
 			test=999-c_int;
-	//  DisplayContact(c);
 	
+			//  DisplayContact(c);	
 
-	if (test==0){
+     if (test==0){
 		
-	if (c_int_c==1){
-    DBC2.deleteContact(c_int_c);
-	Toast.makeText(getBaseContext(), "DB does not exist. Creating new DB", Toast.LENGTH_SHORT).show();		
-		
-		
-	
-	
-	  if (DBC2.insertContact("Smith S.", 6,10, 14, "openning",1,1,2013, 0,0,0,"info") >= 0){
+//	if (c_int_c==1){
+     DBC2.deleteContact(c_int_c);
+	 Toast.makeText(getBaseContext(), "DB does not exist. Creating new DB", Toast.LENGTH_SHORT).show();		
+			
+	/*  if (DBC2.insertContact("Smith S.", 6,10, 14, "openning",1,1,2013, 0,0,0,"info") >= 0){
             Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-        }
+        } 
 		
 		
         if (DBC2.insertContact("Kristal", 8,12, 16, "GR", 1,1,2013,0,0,0,"info") >= 0){
-            Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-			
-			
+            Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();			
         }
 		
 		if (DBC2.insertContact("John", 6,10, 14, "openning",1,1,2013, 0,0,0,"info") >= 0){
@@ -264,8 +307,6 @@ String[] presidents11 = {
 
         if (DBC2.insertContact("Bond", 8,12, 16, "GR", 1,1,2013,0,0,0,"info") >= 0){
             Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-
-
         }
 		
 		if (DBC2.insertContact("Poll", 6,10, 14, "openning",1,1,2013, 0,0,0,"info") >= 0){
@@ -275,8 +316,6 @@ String[] presidents11 = {
 
         if (DBC2.insertContact("Brenda", 8,12, 16, "GR", 1,1,2013,0,0,0,"info") >= 0){
             Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-
-
         }
 		
 		if (DBC2.insertContact("Adele", 6,10, 14, "openning",1,1,2013, 0,0,0,"info") >= 0){
@@ -286,8 +325,6 @@ String[] presidents11 = {
 
         if (DBC2.insertContact("Kristina", 8,12, 16, "GR", 1,1,2013,0,0,0,"info") >= 0){
             Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-
-
         }
 		
 		if (DBC2.insertContact("Mackle", 6,10, 14, "openning",1,1,2013, 0,0,0,"info") >= 0){
@@ -296,28 +333,29 @@ String[] presidents11 = {
 
 
         if (DBC2.insertContact("Pitter", 8,12, 16, "GR", 1,1,2013,0,0,0,"info") >= 0){
-            Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
-        
-		}
-		}
+            Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();        
+		} 
+*/
+		/*}
 		
 		else{
 
 			Toast.makeText(getBaseContext(), "DBC does exist. ", Toast.LENGTH_SHORT).show();		
-			DBC2.deleteContact(c_int_c);
+			// DBC2.deleteContact(c_int_c);
 		}
-		}
+		
+	//	} 
 
 		} while (cnew1.moveToNext());
-		
-		
-		
-		DBC2.close();
-		
-		
+	
 		}
 		
+		DBC2.close();}
+		
 		*/
+		
+		
+		
 	   db.open();
 
 		if (db.insertContact("Smith", "6473456789","smith@gmail.com","10", "14",111)  >= 0){
@@ -350,7 +388,7 @@ String[] presidents11 = {
 
 
 			if (db.insertContact("Pitter", "6473456789","smith@gmail.com","10", "14",111) >= 0){
-				Toast.makeText(this, "Add successfuil.", Toast.LENGTH_LONG).show();
+				Toast.makeText(this, "Add successful.", Toast.LENGTH_LONG).show();
 			}
 
 
@@ -425,7 +463,6 @@ String[] presidents11 = {
 		db.close();
 		
 		
-
 
 	
 		
@@ -979,14 +1016,29 @@ String[] presidents11 = {
 		ArrayAdapter<Integer> adapter3 = new ArrayAdapter<Integer>(
 			this, android.R.layout.simple_spinner_item, hours);
 		h1.setAdapter(adapter3);
-		
-		
-		
-		
+			
 		h1.setOnItemSelectedListener(new OnItemSelectedListener() {
 				public void onItemSelected(AdapterView<?> arg0, View arg1, 
 										   int arg2, long arg3) {
 				hh1 = h1.getSelectedItemPosition(); 
+				
+					/*
+					TimePicker timePicker=(TimePicker)findViewById(R.id.timePicker);
+					timePicker.setIs24HourView(true);
+					timePicker.setVisibility(View.VISIBLE);
+					timePicker.setOnClickListener(new Button.OnClickListener() { 
+					public void onClick	(View v) {
+					TimePicker timePicker=(TimePicker)findViewById(R.id.timePicker);
+					timePicker.setIs24HourView(true);
+					
+					hhh1=timePicker.getCurrentHour();
+					
+					timePicker.setVisibility(View.INVISIBLE);
+					
+
+							}});
+							
+							*/
 					
 	    	int index3=h1.getSelectedItemPosition();
      		hhh1=hours[index3];
@@ -1301,9 +1353,14 @@ String[] presidents11 = {
 			
 			{	//choose the Month
 				month_picker = (Spinner) findViewById(R.id.month_picker);
+				
+				
 				ArrayAdapter<Integer> adapter_month1 = new ArrayAdapter<Integer>(
 					this, android.R.layout.simple_spinner_item, month);
-				month_picker.setAdapter(adapter_month1);
+				
+				
+				
+					month_picker.setAdapter(adapter_month1);
 
 				month_picker.setOnItemSelectedListener(new OnItemSelectedListener() {
 						public void onItemSelected(AdapterView<?> arg0, View arg1, 
@@ -1443,7 +1500,7 @@ String[] presidents11 = {
 																							Toast.makeText(getBaseContext(), "Updated Not successful: ", Toast.LENGTH_LONG).show();
 																						}
 
-																						/*
+																						
 
 																						 if (DBC2.updateContact(row_N2, presidents22, hhh3, lll2, hhh4, status_2, month_picker1, day_picker1, year_picker1, 0, 0, 0,"")){
 																						 //	Toast.makeText(getBaseContext(), "Updated successful: "+presidents22+": "+month_picker1+"/"+day_picker1+ " / " + year_picker1, Toast.LENGTH_LONG).show();
@@ -1453,7 +1510,7 @@ String[] presidents11 = {
 																						 //Toast.makeText(getBaseContext(), "Updated successful: "+presidents_on_11+": "+month_picker1+"/"+day_picker1+ " / " + year_picker1, Toast.LENGTH_LONG).show();
 
 																						 } 
-																						 */
+																						 
 
 																					}
 
@@ -1502,16 +1559,10 @@ String[] presidents11 = {
 			}
 
 
-
-
-
-
 			Button save=(Button)findViewById(R.id.save);
 			save.setOnClickListener(new Button.OnClickListener() { 
 					public void onClick	(View v) {
 						// check if DBC exists
-
-
 
 
 						DBC2.open();
@@ -1584,115 +1635,4 @@ String[] presidents11 = {
 
 		sales=(EditText)findViewById(R.id.sales);
 
-		//	Cur_T=(EditText)findViewById(R.id.Cur_T);
-
-
-		tt=(TextView)findViewById(R.id.tt);
-		ty=(TextView)findViewById(R.id.ty);
-
-		calculate=(Button)findViewById(R.id.calculate);
-		calculate.setOnClickListener(new Button.OnClickListener()
-
-			{public void onClick
-
-				(View v) { 
-				calculate();}});
-
-	}
-
-	public void calculate()
-	
-
-	{	
-		/*
-		 x=Double.parseDouble(amount1.getText().toString());
-
-		 y=Double.parseDouble(amount2.getText().toString());
-
-		 a=Double.parseDouble(amount3.getText().toString());
-
-		 b=Double.parseDouble(amount4.getText().toString());
-
-
-
-		 e=Double.parseDouble(Cur_T.getText().toString()); 
-		 */		
 		
-
-		
-		
-		if( !sales.getText().toString().equals("")&&
-		sales.getText().toString().length()>0) {
-
-		 d=Double.parseDouble(sales.getText().toString());
-		}
-		
-		else
-		d=0;
-		
-		//first TM
-		{ if ((hh2<hh1)||(hh2==hh1)||(rtt==hh1))
-			{ hh2_1=0; }
-
-
-			else
-
-			if ((rtt<hh2)&&(rtt>hh1))
-			{	hh2_1=rtt-hh1; }
-
-			else
-
-			if ((rtt<hh1)&&(rtt<hh2))
-			{	hh2_1=0; }	
-
-			else
-			{    hh2_1=hh2-hh1;}
-
-
-			// Second TM
-			if ((hh4<hh3)||(hh4==hh3)||(rtt==hh3))
-			{ hh4_3=0;}
-
-			else
-
-			if ((rtt<hh4)&&(rtt>hh3))		
-			{	hh4_3=rtt-hh3;	}
-
-			else
-
-			if ((rtt<hh3)&&(rtt<hh4))
-			{	hh4_3=0;	}
-
-			else
-
-			{	hh4_3=hh4-hh3; }
-
-
-			// lunches
-			if ((hh1>ll1)||(hh2<ll1)||(ll1==0)||(rtt<ll1))
-			{ll1=0;}   
-
-			else 
-			{ll1=1;} 
-
-			if ((hh3>ll2)||(hh4<ll2)||(ll2==0)||(rtt<ll2))
-			{ll2=0;}
-			/*	  Toast.makeText(getBaseContext(),
-			 "You have selected wrong lunch ", 
-			 Toast.LENGTH_SHORT).show();} */
-			else 
-			{ll2=1;} 
-
-
-
-			z=hh2_1+hh4_3-ll1-ll2; }
-
-        w=d/z;
-		double rw=Math.ceil(w*100)/100;
-
-		tt.setText(Double.toString(z));
-		ty.setText(Double.toString(rw));
-	}
-	
-
-	}

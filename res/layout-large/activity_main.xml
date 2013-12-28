@@ -152,7 +152,7 @@
 		android:textColor="#305FE4"
 		android:textScaleX=".8"
 		android:scaleY=".8"/>
-	
+
 	<Button
 		android:layout_width="wrap_content"
 		android:id="@+id/update"
@@ -406,6 +406,29 @@
 		android:scaleX=".7"
 		android:scaleY=".7"/>
 
+	<Button
+		android:layout_width="wrap_content"
+		android:id="@+id/time_picker"
+		android:layout_x="220dip"
+		android:layout_height="40dip"
+		android:text="pick time"
+		android:layout_y="360dip"
+		android:textColor="#E3463C"
+		android:scaleX=".7"
+		android:scaleY=".7"
+		android:visibility="invisible"/>
+
+	<Button
+		android:layout_width="250dip"
+		android:id="@+id/time_picker_fone"
+		android:layout_x="0dip"
+		android:layout_height="200dip"
+		android:layout_y="0dip"
+		android:textColor="#E3463C"
+		android:background="#D3EBD9"
+		android:textAlignment="center"
+		android:visibility="invisible"/>
+
 	<TextView
 		android:id="@+id/Text1"
 		android:layout_width="wrap_content"
@@ -537,11 +560,9 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/db_record_check"
 		android:text="Small Text"
-		android:textAppearance="?android:attr/textAppearanceSmall"
 		android:layout_width="wrap_content"
 		android:layout_x="10dip"
-		android:layout_y="80dip"
-		/>
+		android:layout_y="80dip"/>
 
 </AbsoluteLayout>
 

@@ -529,7 +529,7 @@ public class Tracking_Tool extends Activity {
 						        punch_out_tm11_info.setText(string_punch_out1);}
 														
 						       //to show "important notes"
-						      string_imp_notes=ccc.getString(12);
+						       string_imp_notes=ccc.getString(12);
 						       EditText input_imp_notes =(EditText)findViewById(R.id.input_imp_notes);
 						       input_imp_notes.setText(string_imp_notes); 
 								
@@ -590,14 +590,14 @@ public class Tracking_Tool extends Activity {
 								
 						     	ccc.moveToNext();
 
-							/*	Toast.makeText(getBaseContext(), "Dates in the DB: "+mmm + " / " + ddd + " / "+ yyy +" : "+ upDate, Toast.LENGTH_SHORT).show();
+							   // Toast.makeText(getBaseContext(), "Dates in the DB: "+mmm + " / " + ddd + " / "+ yyy +" : "+ upDate, Toast.LENGTH_SHORT).show();
 
 								String string_row3=ccc.getString(0);
 								TextView punch_tm3333_info=(TextView)findViewById(R.id.punch_tm333_info);
 								punch_tm3333_info.setText(string_row3); 
 								row_id3=Integer.parseInt(punch_tm3333_info.getText().toString());
 								
-							*/	
+							
 								String string1_2s=ccc.getString(1);
 								presidents3=string1_2s;
 								TextView team_member_3=(TextView)findViewById(R.id.team_member_3);
@@ -613,7 +613,7 @@ public class Tracking_Tool extends Activity {
 								lunch_time_3.setText(string2_3s); 
 								ll3=Double.parseDouble(lunch_time_3.getText().toString());	
 
-								/* String string2_4s=ccc.getString(4);
+								String string2_4s=ccc.getString(4);
 								TextView finish_time_3=(TextView)findViewById(R.id.finish_time_3);
 								finish_time_3.setText(string2_4s); 
 								hh6=Double.parseDouble(finish_time_3.getText().toString());	
@@ -638,7 +638,7 @@ public class Tracking_Tool extends Activity {
 								TextView punch_out_tm33_info=(TextView)findViewById(R.id.punch_out_tm33_info);
 								punch_out_tm33_info.setText(string_punch_out3);}
 								
-							*/
+							
 								
 								ccc.moveToLast();
 								}
@@ -892,21 +892,21 @@ public class Tracking_Tool extends Activity {
 												int punch_hours=punch_date.getHours();
 												punch_hourss3=punch_hours;
 												int punch_minutes=punch_date.getMinutes();
-												String punch_time=punch_hours+":"+punch_minutes;
-												String punch_hours_out3=" :"+punch_hours;
+												String punch_time3=punch_hours+":"+punch_minutes;
+												String punch_hours_3=" :"+punch_hours;
 												TextView punch_hours_tm3=(TextView)findViewById(R.id.punch_hours_tm3);
 
 												//	hours_now.setText(Integer.toString(hours_cur));
 
-												punch_hours_tm3.setText(punch_time);
+												punch_hours_tm3.setText(punch_time3);
 												Double mm3=hh3-punch_hours;
 												String tm_mm3=mm3+"hrs late";
 												TextView punch_tm3_info=(TextView)findViewById(R.id.punch_tm3_info);
 												punch_tm3_info.setText(tm_mm3);
 												TextView punch_tm33_info=(TextView)findViewById(R.id.punch_tm33_info);
-												punch_tm33_info.setText(punch_hours_out3);
+												punch_tm33_info.setText(punch_hours_3);
 
-												DBC2.open();
+											 DBC2.open();
 												
 												if (DBC2.updatePunchIn(row_id3, punch_hours))
 										
@@ -915,7 +915,8 @@ public class Tracking_Tool extends Activity {
 													Toast.makeText(getBaseContext(), "Update failed.", Toast.LENGTH_LONG).show();
 
 
-												DBC2.close();}
+												DBC2.close();
+												}
 											else
 											{
 												Toast.makeText(getBaseContext(), "Already punch in before.", Toast.LENGTH_LONG).show();
@@ -963,7 +964,9 @@ public class Tracking_Tool extends Activity {
 																Toast.makeText(getBaseContext(), "Update failed.", Toast.LENGTH_LONG).show();
 
 
-															DBC2.close();}
+															DBC2.close();
+															
+															}
 														else
 														{
 															Toast.makeText(getBaseContext(), "Already punch in before.", Toast.LENGTH_LONG).show();

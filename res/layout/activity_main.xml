@@ -18,7 +18,7 @@
 		android:layout_y="100dip"
 		android:text="start"
 		android:textColor="#4B45D6"/>
-
+	
 	<TextView
 		android:id="@+id/Text2"
 		android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
 		android:id="@+id/update"
 		android:layout_x="235dip"
 		android:layout_height="40dip"
-		android:text="save"
+		android:text="update"
 		android:layout_y="310dip"
 		android:textColor="#305FE4"
 		android:textScaleX=".8"
