@@ -300,7 +300,7 @@
 		android:layout_x="180px"
 		android:layout_height="wrap_content"
 		android:text="e-mail"
-		android:layout_y="300px">
+		android:layout_y="250px">
 
 	</Button>
 

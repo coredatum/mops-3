@@ -12,7 +12,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="110dip"
+		android:layout_x="80dip"
 		android:layout_y="40dip"
 		android:text="Start:"
 		android:textColor="#5367ab"/>
@@ -32,7 +32,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="170dip"
+		android:layout_x="140dip"
 		android:layout_y="40dip"
 		android:text="Lunch:"
 		android:textColor="#5367ab"/>
@@ -42,7 +42,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="230dip"
+		android:layout_x="200dip"
 		android:layout_y="40dip"
 		android:text="Finish:"
 		android:textColor="#5367ab"/>
@@ -90,7 +90,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="113dip"
+		android:layout_x="83dip"
 		android:layout_y="65dip"
 		android:background="#ABCFE3"/>
 
@@ -99,7 +99,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="171dip"
+		android:layout_x="141dip"
 		android:layout_y="65dip"
 		android:background="#ABCFE3"/>
 
@@ -108,7 +108,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="232dip"
+		android:layout_x="202dip"
 		android:layout_y="65dip"
 		android:background="#ABCFE3"/>
 
@@ -117,7 +117,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="171dip"
+		android:layout_x="141dip"
 		android:layout_y="95dip"
 		android:background="#ABCFE3"/>
 
@@ -126,7 +126,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="113dip"
+		android:layout_x="83dip"
 		android:layout_y="95dip"
 		android:background="#ABCFE3"/>
 
@@ -135,7 +135,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="232dip"
+		android:layout_x="202dip"
 		android:layout_y="95dip"
 		android:background="#ABCFE3"/>
 
@@ -144,7 +144,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="113dip"
+		android:layout_x="83dip"
 		android:layout_y="147dip"
 		android:background="#ABCFE3"/>
 
@@ -153,7 +153,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="171dip"
+		android:layout_x="141dip"
 		android:layout_y="147dip"
 		android:background="#ABCFE3"/>
 
@@ -162,7 +162,7 @@
 		android:layout_width="28dip"
 		android:layout_height="28dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="232dip"
+		android:layout_x="202dip"
 		android:layout_y="147dip"
 		android:background="#ABCFE3"/>
 
@@ -171,7 +171,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="122dip"
+		android:layout_x="92dip"
 		android:layout_y="70dip"/>
 
 	<TextView
@@ -179,7 +179,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="143dip"
+		android:layout_x="113dip"
 		android:layout_y="70dip"
 		android:textColor="#e70c0c"/>
 
@@ -188,7 +188,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="143dip"
+		android:layout_x="113dip"
 		android:layout_y="70dip"
 		android:textColor="#e70c0c"/>
 
@@ -197,7 +197,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="137dip"
+		android:layout_x="107dip"
 		android:layout_y="70dip"
 		android:textColor="#e70c0c"
 		android:visibility="invisible"/>
@@ -231,7 +231,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="235dip"
+		android:layout_x="205dip"
 		android:layout_y="70dip"/>
 
 	<TextView
@@ -239,7 +239,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="255dip"
+		android:layout_x="235dip"
 		android:layout_y="70dip"
 		android:textColor="#e70c0c"
 		android:visibility="invisible"/>
@@ -249,7 +249,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="255dip"
+		android:layout_x="235dip"
 		android:layout_y="70dip"
 		android:textColor="#e70c0c"/>
 
@@ -258,7 +258,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="255dip"
+		android:layout_x="235dip"
 		android:layout_y="100dip"
 		android:textColor="#e70c0c"
 		android:visibility="invisible"/>
@@ -268,7 +268,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="255dip"
+		android:layout_x="235dip"
 		android:layout_y="150dip"
 		android:textColor="#e70c0c"
 		android:visibility="invisible"/>
@@ -278,7 +278,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="255dip"
+		android:layout_x="235dip"
 		android:layout_y="150dip"
 		android:textColor="#e70c0c"/>
 
@@ -287,7 +287,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="255dip"
+		android:layout_x="235dip"
 		android:layout_y="100dip"
 		android:textColor="#e70c0c"/>
 
@@ -296,7 +296,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="265dip"
+		android:layout_x="235dip"
 		android:layout_y="70dip"
 		android:textColor="#e70c0c"/>
 
@@ -305,7 +305,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="265dip"
+		android:layout_x="235dip"
 		android:layout_y="100dip"
 		android:textColor="#e70c0c"/>
 
@@ -314,7 +314,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="265dip"
+		android:layout_x="235dip"
 		android:layout_y="150dip"
 		android:textColor="#e70c0c"/>
 
@@ -323,7 +323,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="178dip"
+		android:layout_x="148dip"
 		android:layout_y="70dip"/>
 
 	<TextView
@@ -466,7 +466,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="118dip"
+		android:layout_x="92dip"
 		android:layout_y="100dip"/>
 
 	<TextView
@@ -474,7 +474,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="137dip"
+		android:layout_x="107dip"
 		android:layout_y="100dip"
 		android:visibility="invisible"/>
 
@@ -483,7 +483,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="137dip"
+		android:layout_x="107dip"
 		android:layout_y="150dip"
 		android:visibility="invisible"/>
 
@@ -492,7 +492,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="142dip"
+		android:layout_x="113dip"
 		android:layout_y="150dip"
 		android:textColor="#e70c0c"/>
 
@@ -501,7 +501,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="142dip"
+		android:layout_x="113dip"
 		android:layout_y="100dip"
 		android:textColor="#F30528"/>
 
@@ -510,7 +510,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="123dip"
+		android:layout_x="92dip"
 		android:layout_y="150dip"/>
 
 	<TextView
@@ -518,7 +518,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="235dip"
+		android:layout_x="205dip"
 		android:layout_y="100dip"/>
 
 	<TextView
@@ -526,7 +526,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="235dip"
+		android:layout_x="205dip"
 		android:layout_y="150dip"/>
 
 	<TextView
@@ -534,7 +534,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="178dip"
+		android:layout_x="148dip"
 		android:layout_y="100dip"/>
 
 	<TextView
@@ -542,7 +542,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="175dip"
+		android:layout_x="148dip"
 		android:layout_y="150dip"/>
 
 	<TextView

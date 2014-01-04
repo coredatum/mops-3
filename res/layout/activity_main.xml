@@ -18,13 +18,13 @@
 		android:layout_y="100dip"
 		android:text="start"
 		android:textColor="#4B45D6"/>
-	
+
 	<TextView
 		android:id="@+id/Text2"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="160dip"
+		android:layout_x="140dip"
 		android:layout_y="100dip"
 		android:text="lunch"
 		android:textColor="#4B45D6"/>
@@ -34,10 +34,10 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="80dip"
+		android:layout_x="120dip"
 		android:layout_y="70dip"
 		android:text="SCHEDULE"
-		android:textSize="25px"
+		android:textSize="20px"
 		android:textColor="#E91332"/>
 
 	<TextView
@@ -48,7 +48,7 @@
 		android:layout_x="80dip"
 		android:layout_y="230dip"
 		android:text="ON-CALL shifts"
-		android:textSize="25px"
+		android:textSize="20px"
 		android:textColor="#E91332"/>
 
 	<TextView
@@ -77,7 +77,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="210dip"
+		android:layout_x="180dip"
 		android:layout_y="100dip"
 		android:text="finish"
 		android:textColor="#4B45D6"/>
@@ -96,9 +96,10 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawSelectorOnTop="true"
-		android:layout_x="435dip"
+		android:layout_x="240dip"
 		android:layout_y="100dip"
-		android:text="status"/>
+		android:text="task"
+		android:textColor="#4B45D6"/>
 
 	<TextView
 		android:id="@+id/tm_1"
@@ -139,11 +140,12 @@
 
 	<Spinner
 		android:id="@+id/status1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="420dip"
-		android:layout_y="122dip"/>
+		android:layout_x="220dip"
+		android:layout_y="120dip"
+		android:background="@drawable/blank_orange"/>
 
 	<Button
 		android:layout_width="wrap_content"
@@ -155,7 +157,7 @@
 		android:textColor="#305FE4"
 		android:textScaleX=".8"
 		android:scaleY=".8"/>
-	
+
 	<Button
 		android:layout_width="wrap_content"
 		android:id="@+id/update"
@@ -169,18 +171,19 @@
 
 	<Spinner
 		android:id="@+id/status2"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="420dip"
-		android:layout_y="164dip"/>
+		android:layout_x="220dip"
+		android:layout_y="160dip"
+		android:background="@drawable/blank_orange"/>
 
 	<Spinner
 		android:id="@+id/hours2"
 		android:layout_width="40dip"
 		android:layout_height="35dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="210dip"
+		android:layout_x="180dip"
 		android:layout_y="120dip"
 		android:background="@drawable/blank_blue"
 		android:dropDownWidth="40dip"/>
@@ -190,7 +193,7 @@
 		android:layout_width="40dip"
 		android:layout_height="35dip"
 		android:drawSelectorOnTop="true"
-		android:layout_x="160dip"
+		android:layout_x="140dip"
 		android:layout_y="120dip"
 		android:background="@drawable/blank_blue"
 		android:dropDownWidth="40dip"/>
@@ -219,7 +222,7 @@
 		android:layout_width="40dip"
 		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="160dip"
+		android:layout_x="140dip"
 		android:layout_y="260dip"
 		android:background="@drawable/blank_blue"
 		android:dropDownWidth="40dip"/>
@@ -229,7 +232,7 @@
 		android:layout_width="40dip"
 		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="210dip"
+		android:layout_x="180dip"
 		android:layout_y="260dip"
 		android:background="@drawable/blank_blue"
 		android:dropDownWidth="40dip"/>
@@ -245,11 +248,12 @@
 
 	<Spinner
 		android:id="@+id/status_on_1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="420dip"
-		android:layout_y="264dip"/>
+		android:layout_x="220dip"
+		android:layout_y="260dip"
+		android:background="@drawable/blank_orange"/>
 
 	<EditText
 		android:text=""
@@ -365,7 +369,7 @@
 		android:layout_y="100dip"
 		android:text="name"
 		android:textColor="#4B45D6"/>
-	
+
 	<TextView
 		android:layout_height="wrap_content"
 		android:id="@+id/db_record_check"
@@ -373,8 +377,7 @@
 		android:textAppearance="?android:attr/textAppearanceSmall"
 		android:layout_width="wrap_content"
 		android:layout_x="10dip"
-		android:layout_y="75dip"
-	/>
+		android:layout_y="75dip"/>
 
 	<Spinner
 		android:id="@+id/hours3"
@@ -391,7 +394,7 @@
 		android:layout_width="40dip"
 		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="210dip"
+		android:layout_x="180dip"
 		android:layout_y="160dip"
 		android:background="@drawable/blank_blue"
 		android:dropDownWidth="40dip"/>
@@ -401,7 +404,7 @@
 		android:layout_width="40dip"
 		android:layout_height="35dp"
 		android:drawSelectorOnTop="true"
-		android:layout_x="160dip"
+		android:layout_x="140dip"
 		android:layout_y="160dip"
 		android:background="@drawable/blank_blue"
 		android:dropDownWidth="40dip"/>

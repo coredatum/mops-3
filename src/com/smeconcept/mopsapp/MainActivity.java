@@ -1635,4 +1635,115 @@ String[] presidents11 = {
 
 		sales=(EditText)findViewById(R.id.sales);
 
+		//	Cur_T=(EditText)findViewById(R.id.Cur_T);
+
+
+		tt=(TextView)findViewById(R.id.tt);
+		ty=(TextView)findViewById(R.id.ty);
+
+		calculate=(Button)findViewById(R.id.calculate);
+		calculate.setOnClickListener(new Button.OnClickListener()
+
+			{public void onClick
+
+				(View v) { 
+				calculate();}});
+
+	}
+
+	public void calculate()
+	
+
+	{	
+		/*
+		 x=Double.parseDouble(amount1.getText().toString());
+
+		 y=Double.parseDouble(amount2.getText().toString());
+
+		 a=Double.parseDouble(amount3.getText().toString());
+
+		 b=Double.parseDouble(amount4.getText().toString());
+
+
+
+		 e=Double.parseDouble(Cur_T.getText().toString()); 
+		 */		
 		
+
+		
+		
+		if( !sales.getText().toString().equals("")&&
+		sales.getText().toString().length()>0) {
+
+		 d=Double.parseDouble(sales.getText().toString());
+		}
+		
+		else
+		d=0;
+		
+		//first TM
+		{ if ((hh2<hh1)||(hh2==hh1)||(rtt==hh1))
+			{ hh2_1=0; }
+
+
+			else
+
+			if ((rtt<hh2)&&(rtt>hh1))
+			{	hh2_1=rtt-hh1; }
+
+			else
+
+			if ((rtt<hh1)&&(rtt<hh2))
+			{	hh2_1=0; }	
+
+			else
+			{    hh2_1=hh2-hh1;}
+
+
+			// Second TM
+			if ((hh4<hh3)||(hh4==hh3)||(rtt==hh3))
+			{ hh4_3=0;}
+
+			else
+
+			if ((rtt<hh4)&&(rtt>hh3))		
+			{	hh4_3=rtt-hh3;	}
+
+			else
+
+			if ((rtt<hh3)&&(rtt<hh4))
+			{	hh4_3=0;	}
+
+			else
+
+			{	hh4_3=hh4-hh3; }
+
+
+			// lunches
+			if ((hh1>ll1)||(hh2<ll1)||(ll1==0)||(rtt<ll1))
+			{ll1=0;}   
+
+			else 
+			{ll1=1;} 
+
+			if ((hh3>ll2)||(hh4<ll2)||(ll2==0)||(rtt<ll2))
+			{ll2=0;}
+			/*	  Toast.makeText(getBaseContext(),
+			 "You have selected wrong lunch ", 
+			 Toast.LENGTH_SHORT).show();} */
+			else 
+			{ll2=1;} 
+
+
+
+			z=hh2_1+hh4_3-ll1-ll2; }
+
+        w=d/z;
+		double rw=Math.ceil(w*100)/100;
+
+		tt.setText(Double.toString(z));
+		ty.setText(Double.toString(rw));
+	}
+	
+
+	}
